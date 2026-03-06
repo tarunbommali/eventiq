@@ -1,0 +1,32 @@
+/* BookMyShow-style global styles */
+body {
+  background-color: #0f0f1a;
+  color: #e2e8f0;
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1a2e;
+}
+::-webkit-scrollbar-thumb {
+  background: #e11d48;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f43f5e;
+}
+
+/* Smooth transitions for interactive elements */
+a, button {
+  transition: all 0.2s ease;
+}
